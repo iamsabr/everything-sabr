@@ -1,0 +1,33 @@
+body {
+    max-width: 50%;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p {
+    overflow: hidden;
+}
+
+.sabr-logo {
+    width: 175px;
+    align: left;
+    margin: 0 0 -.5rem 0;
+}
+
+.bottom-ledge {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+    align-items: flex-end;
+}
+
+    .bottom-ledge h2 {
+        margin: 0;
+    }
