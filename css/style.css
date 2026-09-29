@@ -41,3 +41,9 @@ a {}
     .bottom-ledge a {
         text-decoration: none;
     }
+.nav-float-right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    gap: 2rem;
+}
