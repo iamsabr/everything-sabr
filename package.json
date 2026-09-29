@@ -4,9 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "scripts": {
     "build": "eleventy",
     "serve": "eleventy --serve"
   },
@@ -22,5 +19,8 @@
   "homepage": "https://github.com/iamsabr/everything-sabr#readme",
   "dependencies": {
     "@11ty/eleventy": "^3.1.6"
+  },
+  "devDependencies": {
+    "luxon": "^3.7.2"
   }
 }
