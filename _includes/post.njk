@@ -1,0 +1,18 @@
+---
+layout: base.njk
+hideHeading: true
+---
+<article class="h-entry">
+    <h1 class="p-name">{{ heading or title }}</h1>
+    <p class="post-meta">
+        <a class="u-url" href="{{ page.url | absoluteUrl }}"><time class="dt-published" datetime="{{ page.date | readableDate }}">{{ page.date | readableDate }}</time></a>
+        <span>by <a class="p-author h-card" href="https://everythingsabr.me">sabr</a></span>
+        {%- set categories = tags | reject("eq", "posts") %}
+        {%- if categories | length %}
+        <span>in {% for tag in categories %}<a class="p-category" href="/blog/">{{ tag }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</span>
+        {%- endif %}
+    </p>
+    <div class="e-content">
+        {{ content | safe }}
+    </div>
+</article>
