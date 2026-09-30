@@ -7,7 +7,6 @@ relMe:
     - https://dice.camp/@sabr
 lastUpdated: "2026-09-28"
 ---
-updated: {{ lastUpdated }}
 
 Welcome to **everything sabr**, my home on the web. I am a geeky, GenX netizen who has decided enough is enough with the modern web. My interests are varied but tend to center around technology, video games, tabletop gaming (especially roleplaying), travel and nature.
 

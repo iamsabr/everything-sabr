@@ -6,8 +6,7 @@ relMe:
     - https://github.com/iamsabr
     - https://dice.camp/@sabr
 lastUpdated: "2026-09-28"
-heading: colophon
+heading: now
 ---
-updated: {{ lastUpdated }}
 
 ## coming soon!

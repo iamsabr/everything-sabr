@@ -8,7 +8,6 @@ relMe:
 lastUpdated: "2026-09-28"
 heading: colophon
 ---
-updated: {{ lastUpdated }}
 
 ## current technology
 

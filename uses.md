@@ -6,9 +6,8 @@ relMe:
     - https://github.com/iamsabr
     - https://dice.camp/@sabr
 lastUpdated: "2026-09-28"
-heading: sabr uses
+heading: uses
 ---
-updated: {{ lastUpdated }}
 
 ## computer equipment
 - My primary PC is a <a href="https://frame.work/p13pro">Framework 13 Pro</a> with the Intel Ultra x7 358H processor, 64 GB of RAM and a 2 TB SSD running CachyOS with the Cosmic Desktop. This machine is now my daily driver outside of work needs.
