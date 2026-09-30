@@ -87,6 +87,16 @@ h2 {
     line-height: 1.1;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+}
+
 .rule {
     height: 1px;
     margin: 0;
@@ -151,6 +161,16 @@ main li { text-wrap: pretty; }
     font-size: 14px;
     color: var(--muted);
     font-variant-numeric: tabular-nums;
+}
+
+.post-meta {
+    margin: 4px 0 0;
+    font-size: 14px;
+    color: var(--muted);
+}
+.post-meta > * + *::before {
+    content: "·";
+    margin-right: .25rem;
 }
 
 footer {

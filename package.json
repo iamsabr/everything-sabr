@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/iamsabr/everything-sabr#readme",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.6"
+    "@11ty/eleventy": "^3.1.6",
+    "@11ty/eleventy-plugin-rss": "^3.0.0"
   },
   "devDependencies": {
     "luxon": "^3.7.2"

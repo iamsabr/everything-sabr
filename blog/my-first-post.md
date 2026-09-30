@@ -5,8 +5,6 @@ description: the first post of this blog.
 date: 2026-09-28
 tags: ramblings
 ---
-Posted {{ page.date | readableDate }}
-
 The idea of creating this blog has been floating around my head for more than a year. A place to write, share my ideas, and be a part of the wider web community again.
 
 My goal for this blog is simple. I want to write for me, about any topic that interests me. Most likley this blog will talk about technology, gaming and other related topics. This is a blog by sabr about sabr's interests.

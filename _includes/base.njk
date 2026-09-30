@@ -10,14 +10,16 @@
         <title>{{ title }}</title>
         <meta name="description" content="{{ description }}">
         <link rel="stylesheet" href="/css/style.css">
+        <link rel="alternate" type="application/atom+xml" title="everything sabr" href="/feed.xml">
     </head>
 
     <body>
-        <header class="h-card">
-            <div class="masthead">
+        <header>
+            <div class="masthead h-card">
                 <img class="sabr-logo u-photo" alt="a black & white digital image in a drawn style that represents me" src="/assets/sabr-webvatar.png">
                 <div class="masthead-title">
-                    <a class="site-name u-url u-uid" href="https://www.everythingsabr.me">everything sabr</a>
+                    <a class="site-name u-url u-uid" href="https://everythingsabr.me">everything <span class="p-name">sabr</span></a>
+                    <p class="p-note visually-hidden">A geeky, GenX netizen with interests in technology, video games, tabletop roleplaying, travel and nature.</p>
                 </div>
             </div>
             <hr class="rule">
@@ -38,12 +40,14 @@
         </header>
 
         <main>
+            {%- if not hideHeading %}
             <h1>{{ heading or "home" }}</h1>
+            {%- endif %}
             {{ content | safe }}
         </main>
 
         <footer>
-            <p>&copy; 2026 - <a href="/">sabr</a></p>
+            <p>&copy; 2026 - <a href="/">sabr</a> - <a href="/feed.xml">atom</a></p>
         </footer>
     </body>
 </html>
